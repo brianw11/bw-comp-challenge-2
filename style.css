@@ -1,0 +1,440 @@
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #bfc0c1
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   grid-template-rows:repeat(2, 1fr);
+   grid-column-gap: 15px;
+   grid-row-gap: 15px;
+   box-sizing: border-box;
+   object-fit: cover;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+.box {
+    padding-left: .6rem;
+    height: 450px;
+    background-image: url(http://dd.headstaff.com/wp-content/uploads/sites/10/2015/08/dentist-for-business-professional.jpg);
+    background-position: left top;
+    background-size: 100% 42%;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 1px 1px #888;
+    background-color: white;
+}
+
+section {
+    width: 100%;
+    height: 125px;
+    background-color: gray;
+}
+
+span {
+    padding-top: 15px;
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 1.2rem; 
+    color: rgba(31, 31, 31, 0.87);
+}
+
+.menu {
+    margin-top: 50px;
+    padding-right: 1.2rem;
+    margin-right: 0;
+}
+
+.drop-downs {
+    text-decoration: none;
+}
+
+.admin-img {
+    height: 20px;
+    width: 20px;
+    padding-top: 15px;
+    float: right;
+}
+
+.header-img {
+    height: 25px;
+    width: 25px;
+    padding-right: .6rem;
+    padding-top: 72px;
+}
+
+.win {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    float: right;
+    margin-top: 45px;
+    font-family: 'Tienne', serif;
+    position: absolute;
+    padding-top: 14px;
+    padding-left: 52%;
+}
+
+.adjust {
+    margin-top: -4px;
+    float: right;
+    position: absolute;
+}
+
+.admin {
+    float: right;
+    margin-right: .6rem;
+    position: relative;
+}
+
+.arrow {
+    padding-top: 15px;
+    padding-right: 1.56rem;
+    position: absolute;
+}
+
+.views {
+    margin-left: 19.3rem;
+    font-size: 14px;
+    padding-right: 20px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    position: relative;
+    float: right;
+    color: white;
+}
+
+.view-number {
+    font-size: 30px;
+    float: right;
+    margin-top: 0;
+    margin-right: 1.37rem;
+    color: white;
+    position: relative;
+}
+
+.name {
+    font-size: 18px;
+    padding-top: 175px;
+    margin-bottom: 0px;
+    color: rgba(31, 31, 31, 0.87);
+}
+
+.date {
+    font-size: 12px;
+    margin-top: 0px;
+    color: rgba(51, 51, 51, 0.59);
+}
+
+.url {
+    background-color: rgba(163, 163, 163, 0.34);
+    color: rgba(51, 51, 51, 0.59);
+    margin-right: .6rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    overflow-wrap: break-word;
+    height: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgba(51, 51, 51, 0.59);
+}
+
+.playlist {
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: rgba(31, 31, 31, 0.87);
+}
+
+.playlist-name {
+    margin-top: 0px;
+    color: rgba(31, 31, 31, 0.87);
+}
+
+.attachment {
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: rgba(31, 31, 31, 0.87);
+}
+
+.attach-count{
+    font-size: 30px;
+    margin-top: 0px;
+    color: rgba(112, 115, 255, 0.74);
+
+}
+
+.box1 {
+    grid-column: 1/2 ;
+    grid-row: 1/2;
+    background-image: url(https://s-i.huffpost.com/gadgets/slideshows/287305/slide_287305_2240958_free.jpg);
+    background-position: left top;
+    background-size: 100% 42%;
+    background-repeat: no-repeat;
+}
+
+.box2 {
+    grid-column: 2/3 ;
+    grid-row: 1/2;
+    background-image: url(http://static.celebuzz.com/uploads/2011/06/23/james-brown-mug-shot-560x560.jpg);
+    background-position: left top;
+    background-size: 100% 42%;
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    grid-column: 3/4 ;
+    grid-row: 1/2 ; 
+    background-image: url(https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fpeopledotcom.files.wordpress.com%2F2016%2F08%2Fshaun-white-2-600.jpg%3Fw%3D600&w=700&q=85);
+    background-position: left top;
+    background-size: 100% 42%;
+    background-repeat: no-repeat;
+
+}
+
+.box4 {
+    grid-column: 4/5 ;
+    grid-row: 1/2 ; 
+    background-image: url(https://cbsnews3.cbsistatic.com/hub/i/r/2012/01/05/fee185ae-a643-11e2-a3f0-029118418759/resize/620x465/0b8db5e2ab6623b34d8754b682c739aa/robertdowneyjr_ss.jpg);
+    background-position: left top;
+    background-size: 100% 42%;
+    background-repeat: no-repeat;);
+}
+
+.box5 {
+    grid-column: 1/2 ;
+    grid-row: 2/3;
+    background-image: url(https://i2.wp.com/theweekdaytimes.com/wp-content/uploads/2017/11/nick_nolte.jpg);
+    background-position: left top;
+    background-size: 100% 42%;
+    background-repeat: no-repeat;
+}
+
+.box6 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(http://criminalreports.net/celebrity-mugshots/5-snooki-mugshot.jpg);
+    background-position: left top;
+   background-size: 100% 42%;
+   background-repeat: no-repeat;
+}
+
+.box7 {
+    grid-column: 3/4 ;
+    grid-row: 2/3;
+    background-image: url(https://www.telegraph.co.uk/content/dam/news/2017/05/30/TELEMMGLPICT000130394047_trans_NvBQzQNjv4BqF45YukdtCqr78Pp5RPEuELBt_YxKy0fQU6h1KL9W-0g.jpeg?imwidth=450);
+    background-position: left top;
+    background-size: 100% 42%;
+    background-repeat: no-repeat;
+}
+
+.box8 {
+    grid-column: 4/5 ;
+    grid-row: 2/3;
+    background-image: url(http://assets.nydailynews.com/polopoly_fs/1.2650306.1464230095!/img/httpImage/image.jpg_gen/derivatives/article_750/people-dustin-diamond-plea.jpg);
+    background-position: left top;
+    background-size: 100% 42%;
+    background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 1300px) {
+.win {
+    padding-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+.win {
+    padding-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+.win {
+    padding-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+.win {
+    padding-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+.grid  { 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-row-gap: 15px;
+    margin-left: 5px;
+}
+
+span {
+      
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.menu {
+    padding-right: .8rem;
+    margin-right: 0;
+}
+
+.win {
+  padding-left: 30%;
+}
+
+.box1 {
+   grid-column: 1/2 ;
+   grid-row: 1/2;
+}
+
+.box2 {
+   grid-column: 2/3 ;
+   grid-row: 1/2;
+}
+
+.box3 {
+   grid-column: 3/4 ;
+   grid-row: 1/2 ; 
+}
+
+.box4 {
+   grid-column: 1/2 ;
+   grid-row: 3/4 ; 
+}
+
+.box5 {
+   grid-column: 1/2 ;
+   grid-row: 2/3;
+}
+
+.box6 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.box7 {
+    grid-column: 3/4 ;
+    grid-row: 2/3;
+}
+
+.box8 {
+    grid-column: 2/3 ;
+    grid-row: 3/4;
+}
+
+}
+
+
+@media only screen and (max-width: 700px) {
+.grid  { 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-row-gap: 15px;
+    margin-left: 5px;
+  }
+
+span {
+    margin-left: 0;
+    margin-right: .2;
+}
+
+.menu {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.menu-size {
+    display: block;
+    margin-left: 0;
+    padding-left: 10px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.section {
+  height: 150px;
+}
+
+.win {
+  padding-left: 63%;
+    margin-top: 0;
+}
+
+.drop-downs {
+  font-size: 14px;
+}
+
+.box1 {
+   grid-column: 1/2 ;
+   grid-row: 1/2;
+}
+
+.box2 {
+   grid-column: 2/3 ;
+   grid-row: 1/2;
+}
+
+.box3 {
+ 
+   grid-column: 1/2 ;
+   grid-row: 3/4 ; 
+}
+
+.box4 {
+   grid-column: 1/2 ;
+   grid-row: 4/5 ; 
+}
+
+.box5 {
+   grid-column: 1/2 ;
+   grid-row: 2/3;
+}
+
+.box6 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.box7 {
+    grid-column: 2/3 ;
+    grid-row: 3/4;
+}
+
+.box8 {
+    grid-column: 2/3 ;
+    grid-row: 4/5;
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+.grid  { 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: inline-block;
+    grid-row-gap: 15px;
+    margin-left: 5px;
+}
+
+.name {
+    padding-top: 200px;
+}
+
+.win {
+    padding-left: 50%;
+}
+
+}
+    
+    
